@@ -13,8 +13,8 @@
 - [Worley Noise Implementations](https://thebookofshaders.com/12/)
 
 - A link to your live github.io demo 
-
-- At least one screenshot of your planet
+http://sangeun44.github.io/homework-1-noisy-planets-Sangeun44
+- Screenshot of the planet
 ![](heart.png)
 
 - An explanation of the techniques you used to generate your planet features.
