@@ -1,8 +1,8 @@
 # CIS 566 Project 1: Noisy Planets
 
-- Name and PennKey
-  Sangeun Lee
-  eunsang
+
+  Name: Sangeun Lee
+  PennKey: eunsang
 
 - Citation of external resources 
 -[Noise functions](https://gist.github.com/patriciogonzalezvivo/670c22f3966e662d2f83)
@@ -12,11 +12,10 @@
 - [GPU Gems Chapter on Perlin Noise](http://developer.download.nvidia.com/books/HTML/gpugems/gpugems_ch05.html)
 - [Worley Noise Implementations](https://thebookofshaders.com/12/)
 
-
 - A link to your live github.io demo 
 
 - At least one screenshot of your planet
-![](heart.jpg)
+![](heart.png)
 
 - An explanation of the techniques you used to generate your planet features.
 Please be as detailed as you can; not only will this help you explain your work
@@ -31,8 +30,11 @@ Planet
   work with 
 
 Bunnies
-  Perlin Noise
-
+  Shaped with parabolic curves
+  Simplex Noise dresses
+  
+Sky
+  perlin Noise recursion
 
 ## Objective
 - Continue practicing WebGL and Typescript
