@@ -13,16 +13,22 @@
 - [Worley Noise Implementations](https://thebookofshaders.com/12/)
 
 
-- A link to your live github.io demo (we'll talk about how to get this set up
-in class some time before the assignment is due)
+- A link to your live github.io demo 
 
 - At least one screenshot of your planet
+![](heart.jpg)
 
 - An explanation of the techniques you used to generate your planet features.
 Please be as detailed as you can; not only will this help you explain your work
 to recruiters, but it helps us understand your project when we grade it!
 
-Planet -
+Mountains
+  Work with recursive Perlin noise to create spikes
+  Modifiable spikes from dat.GUI
+
+Planet 
+  Work with recursive Perlin noise
+  work with 
 
 Bunnies
   Perlin Noise
