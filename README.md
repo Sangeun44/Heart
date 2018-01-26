@@ -22,19 +22,19 @@ Please be as detailed as you can; not only will this help you explain your work
 to recruiters, but it helps us understand your project when we grade it!
 
 Mountains
-  Work with recursive Perlin noise to create spikes
-  Modifiable spikes from dat.GUI
+  -Work with recursive Perlin noise to create spikes
+  -Modifiable spikes from dat.GUI
 
 Planet 
-  Work with recursive Perlin noise
-  work with 
+  -Work with recursive Perlin noise
+  -Work with 
 
 Bunnies
-  Shaped with parabolic curves
-  Simplex Noise dresses
+  -Shaped with parabolic curves
+  -Simplex Noise dresses
   
 Sky
-  perlin Noise recursion
+  -Perlin Noise recursion
 
 ## Objective
 - Continue practicing WebGL and Typescript
@@ -70,24 +70,6 @@ planet temperature. You should have at least three modifiable attributes.
 you can even try making multiple planets! Your score on this assignment is in
 part dependent on how interesting you make your planet, so try to
 experiment with as much as you can!
-
-For reference, here is a planet made by your TA Dan last year for this
-assignment:
-
-![](danPlanet.png)
-
-Notice how the water has a specular highlight, and how there's a bit of
-atmospheric fog near the horizon of the planet. This planet used only simple
-Fractal Brownian Motion to create its mountainous shapes, but we expect you all
-can do something much more exciting! If we were to grade this planet by the
-standards for this year's version of the assignment, it would be a B or B+.
-
-## Useful Links
-- [Implicit Procedural Planet Generation](https://static1.squarespace.com/static/58a1bc3c3e00be6bfe6c228c/t/58a4d25146c3c4233fb15cc2/1487196929690/ImplicitProceduralPlanetGeneration-Report.pdf)
-- [Curl Noise](https://petewerner.blogspot.com/2015/02/intro-to-curl-noise.html)
-- [GPU Gems Chapter on Perlin Noise](http://developer.download.nvidia.com/books/HTML/gpugems/gpugems_ch05.html)
-- [Worley Noise Implementations](https://thebookofshaders.com/12/)
-
 
 ## Submission
 Commit and push to Github, then submit a link to your commit on Canvas.
