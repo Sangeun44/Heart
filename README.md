@@ -17,12 +17,8 @@ http://sangeun44.github.io/homework-1-noisy-planets-Sangeun44
 - Screenshot of the planet
 ![](heart.png)
 
-- An explanation of the techniques you used to generate your planet features.
-Please be as detailed as you can; not only will this help you explain your work
-to recruiters, but it helps us understand your project when we grade it!
-
 Mountains
-  -Work with recursive Perlin noise to create spikes
+  -Worked with Perlin noise to create spikes
   -Modifiable spikes from dat.GUI
 
 Planet 
@@ -35,54 +31,4 @@ Bunnies
   
 Sky
   -Perlin Noise recursion
-
-## Objective
-- Continue practicing WebGL and Typescript
-- Experiment with noise functions to procedurally generate the surface of a planet
-- Review surface reflection models
-
-## Base Code
-You'll be using the same base code as in homework 0.
-
-## Assignment Details
-- Update the basic scene from your homework 0 implementation so that it renders
-an icosphere once again. We recommend increasing the icosphere's subdivision
-level to 6 so you have more vertices with which to work.
-- Write a new GLSL shader program that incorporates various noise functions and
-noise function permutations to offset the surface of the icosphere and modify
-the color of the icosphere so that it looks like a planet with geographic
-features. Try making formations like mountain ranges, oceans, rivers, lakes,
-canyons, volcanoes, ice caps, glaciers, or even forests. We recommend using
-3D noise functions whenever possible so that you don't have UV distortion,
-though that effect may be desirable if you're trying to make the poles of your
-planet stand out more.
-- Implement various surface reflection models (e.g. Lambertian, Blinn-Phong,
-Matcap/Lit Sphere, Raytraced Specular Reflection) on the planet's surface to
-better distinguish the different formations (and perhaps even biomes) on the
-surface of your planet. Make sure your planet has a "day" side and a "night"
-side; you could even place small illuminated areas on the night side to
-represent cities lit up at night.
-- Add GUI elements via dat.GUI that allow the user to modify different
-attributes of your planet. This can be as simple as changing the relative
-location of the sun to as complex as redistributing biomes based on overall
-planet temperature. You should have at least three modifiable attributes.
-- Have fun experimenting with different features on your planet. If you want,
-you can even try making multiple planets! Your score on this assignment is in
-part dependent on how interesting you make your planet, so try to
-experiment with as much as you can!
-
-## Submission
-Commit and push to Github, then submit a link to your commit on Canvas.
-
-For this assignment, and for all future assignments, modify this README file
-so that it contains the following information:
-
-## Extra Credit
-- Use a 4D noise function to modify the terrain over time, where time is the
-fourth dimension that is updated each frame. A 3D function will work, too, but
-the change in noise will look more "directional" than if you use 4D.
-- Use music to animate aspects of your planet's terrain (e.g. mountain height,
-  brightness of emissive areas, water levels, etc.)
-- Create a background for your planet using a raytraced sky box that includes
-things like the sun, stars, or even nebulae.
 
