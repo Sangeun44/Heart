@@ -13,7 +13,7 @@
 - [Worley Noise Implementations](https://thebookofshaders.com/12/)
 
 - A link to your live github.io demo 
-http://sangeun44.github.io/heart
+http://sangeun44.github.io/Heart
 - Screenshot of the planet
 ![](heart.png)
 
